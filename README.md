@@ -32,6 +32,11 @@ Following are the steps to create and deploy a contract into the Ganche.
          ![Screenshot (6)](https://github.com/Manasamahesh/dapp-example/assets/25504822/7bb66121-7166-4d21-8e03-dddbb2ea2325)
  * Truffle :
     - Create the sample contract in the folder(contracts) with extension .sol(eg.calculator.sol,hello.sol)
+    - Folder structure to be in the below format:
+    
+          
+         ![image](https://github.com/Manasamahesh/dapp-example/assets/25504822/60d9b1b5-9008-4438-b0cf-50527d733f26)
+          
     - In the file name, add the contract.
     - Now, in the terminal run command as `Truffle compile`
     - For deployment migrate scripts to be added in the migrate folder which is a feature provided by the truffle as part of their framework.
@@ -39,7 +44,19 @@ Following are the steps to create and deploy a contract into the Ganche.
     - Now add local network details in the truffle-config.js for connecting with Ganche blockchain.
           ![image](https://github.com/Manasamahesh/dapp-example/assets/25504822/d0e0169a-54d3-4618-b983-e407392627bd)
     - run command `Truffle Migrate --network development`
+          ![image](https://github.com/Manasamahesh/dapp-example/assets/25504822/cf30a79e-1520-4cd4-b809-62a2f5769996)
+          
+         ![image](https://github.com/Manasamahesh/dapp-example/assets/25504822/ee9bf2e4-5030-476c-a4a6-af4d8fec1bd6)
+
     - run command `Truffle console` to get interact with deployed contract.
+         ![image](https://github.com/Manasamahesh/dapp-example/assets/25504822/33b7642d-22cb-48c4-9d67-a6fb57484ae5)
+    - For testing, where deployed contracts are working as expected test cases can be added in to the truffle test folder using mocha and chai.
+    - run command `Truffle test` for running the test cases.
+            ![image](https://github.com/Manasamahesh/dapp-example/assets/25504822/7a2c859f-e1a0-4230-8fff-8bd4ee5068e3)
+
+    
+
+
  
 
 
