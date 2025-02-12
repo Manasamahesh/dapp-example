@@ -1,7 +1,6 @@
 # dapp-example
 
-This deployment guide provides a step-by-step procedure for creating a contract in Remix and deploying it to the Ganache developer blockchain using Truffle.
-For Deploying and running contract will be using Ganche which is a local developer blockchain environment.
+This deployment guide provides a step-by-step procedure for creating a contract in Remix and deploying it to a local blockchain environment called Ganache, which is a developer blockchain environment for developing and testing.
 
 Following are the steps to create and deploy a contract into the Ganche.
 * Install ganche from [here](https://trufflesuite.com/ganache/).
